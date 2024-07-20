@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">tp_best_ytb</string>
+    <string-array name="categories_array">
+        <item>Sport</item>
+        <item>Music</item>
+        <item>Comedy</item>
+        <item>Cuisine</item>
+    </string-array>
+</resources>
