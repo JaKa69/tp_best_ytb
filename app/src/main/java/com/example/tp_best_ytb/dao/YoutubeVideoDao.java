@@ -26,4 +26,7 @@ public interface YoutubeVideoDao {
 
     @Query("SELECT * FROM youtube_video")
     List<YoutubeVideo> getAllVideos();
+
+    @Query("SELECT * FROM youtube_video WHERE is_favorite = 1")
+    List<YoutubeVideo> getFavoriteVideos();
 }

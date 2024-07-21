@@ -3,4 +3,13 @@
     <item
         android:id="@+id/action_add_video"
         android:title="Add Video"/>
+    <item
+        android:id="@+id/action_filter_favorites"
+        android:title="Afficher les favoris"
+        android:orderInCategory="100" />
+    <item
+        android:id="@+id/action_show_all_videos"
+        android:title="Afficher toutes les vidéos"
+        android:orderInCategory="100"
+        android:visible="false"/>
 </menu>

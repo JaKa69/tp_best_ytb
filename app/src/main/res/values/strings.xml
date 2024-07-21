@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">tp_best_ytb</string>
+    <string name="app_name">My Best Youtube</string>
     <string-array name="categories_array">
         <item>Sport</item>
         <item>Music</item>

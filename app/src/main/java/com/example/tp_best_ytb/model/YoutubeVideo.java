@@ -1,5 +1,6 @@
 package com.example.tp_best_ytb.model;
 
+import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
@@ -9,10 +10,15 @@ import java.io.Serializable;
 public class YoutubeVideo implements Serializable {
     @PrimaryKey(autoGenerate = true)
     private long id;
+    @ColumnInfo(name = "title")
     private String titre;
+    @ColumnInfo(name = "description")
     private String description;
+    @ColumnInfo(name = "url")
     private String url;
+    @ColumnInfo(name = "category")
     private String categorie;
+    @ColumnInfo(name = "is_favorite")
     private int favori;
 
     public YoutubeVideo() {
